@@ -1,0 +1,13 @@
+[package]
+name = "agloop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+chrono = "0.4.44"
+duct = "1.1.1"
+regex = "1.12.3"
+serde = {version = "1.0.228", features = ["derive"] }
+serde_yaml = "0.9.34"
+toml = "1.0.6"
